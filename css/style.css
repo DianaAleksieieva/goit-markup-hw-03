@@ -24,6 +24,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  margin: 0;
+  padding: 0;
 }
 header {
   min-height: 80px;
@@ -67,10 +69,7 @@ header {
   text-decoration: none;
   color: var(--white-color);
 }
-.logo:active {
-  color: var(--black-color);
-  text-decoration: none;
-}
+
 /* Стиль навигация */
 .navigation {
   display: flex;
@@ -91,7 +90,7 @@ header {
   text-decoration: none;
 }
 .nav-link:hover,
-:focus {
+.nav-link:focus {
   color: var(--brand-color);
 }
 .nav-list .nav-link.current {
@@ -116,12 +115,12 @@ header {
   text-decoration: none;
 }
 .contact-mail:hover,
-:focus {
+.contact-mail:focus {
   text-decoration: none;
   color: var(--brand-color);
 }
 .contact-phone:hover,
-:focus {
+.contact-phone:focus {
   text-decoration: none;
   color: var(--brand-color);
 }
@@ -198,6 +197,13 @@ header {
   display: block;
 }
 /* 4-я секция "Наша команда" */
+.team-section {
+  background: #f5f4fa;
+}
+.team-container {
+  padding: 94px;
+}
+
 .our-team-list {
   display: flex;
 }
@@ -273,7 +279,7 @@ header {
 }
 
 .button-portfolio:hover,
-:focus {
+.button-portfolio:focus {
   color: var(--white-color);
   background-color: var(--brand-color);
   font-weight: 500;
